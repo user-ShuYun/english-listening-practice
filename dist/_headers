@@ -1,0 +1,10 @@
+/audio/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Content-Type-Options: nosniff
+/materials/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Content-Type-Options: nosniff
+/catalog.json
+  Cache-Control: no-cache
+/*
+  Referrer-Policy: strict-origin-when-cross-origin
