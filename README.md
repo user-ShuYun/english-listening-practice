@@ -1,8 +1,8 @@
-# 英语听力练习
+# 聆听手记
 
 舒韫制作的静态英语听力练习网站，含 CET-4、CET-6、IELTS 各 60 篇原创材料，共 646 道题。男女声各有标准和约快 10% 两档，共 720 条录音。答题、判分和练习记录在浏览器中处理，交卷后可查看原文、解析和复听。
 
-[体验正式网站](https://shuyun-english-listening.freebream1.chatgpt.site)
+[打开「聆听手记」正式网站](https://shuyun-english-listening.freebream1.chatgpt.site)
 
 ## 本地运行
 

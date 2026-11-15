@@ -106,7 +106,7 @@ for (const file of ['index.html', 'styles.css', 'app.js', 'library.js', 'icon.sv
   assert((await stat(new URL(file, dist))).size > 0);
 }
 const html = await readFile(new URL('index.html', dist), 'utf8');
-assert(html.includes('© 2026 舒韫 · 英语听力练习'));
+assert(html.includes('© 2026 舒韫 · 聆听手记'));
 assert(!/localhost|127\.0\.0\.1|\.runtime|[A-Z]:\\/.test(html));
 summary.catalogBytes = (await stat(new URL('catalog.json', dist))).size;
 console.log(JSON.stringify(summary, null, 2));

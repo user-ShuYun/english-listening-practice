@@ -77,5 +77,5 @@ for (const match of (source + app).matchAll(/(?:byId|(?:document\.)?getElementBy
 }
 assert(html.indexOf('src="./library.js"') < html.indexOf('src="./app.js"'));
 assert(!html.includes('id="generate-live"'));
-assert(html.includes('© 2026 舒韫 · 英语听力练习'));
+assert(html.includes('© 2026 舒韫 · 聆听手记'));
 console.log('PASS: catalog-only initial load; selected detail only; hidden answers; native fast-track selection; no audio prefetch; IELTS normalization; idempotent grading; local progress; cancellation.');
